@@ -1,9 +1,34 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+.navbar {
+  height: 70px;
+  line-height: 70px;
+  color: #fff;
+  border-bottom: 1px solid rgba(255,255,255,.7);
+}
+
+.link {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 24px;  
+}
+.link:hover {
+  color: #ffd500
+}
+.link.selected {
+  color: #ffd500
+}
+.connect-btn {
+  margin-left: 50px;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
 }
 
@@ -14,8 +39,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
